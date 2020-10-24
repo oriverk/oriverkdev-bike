@@ -15,8 +15,12 @@
   "author": "oriverk <oriveryk@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@types/node": "^14.14.2",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
     "next": "^9.5.5",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "typescript": "^4.0.3"
   }
 }
