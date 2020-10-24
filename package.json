@@ -3,6 +3,17 @@
   "version": "1.0.0",
   "description": "oriverkdev bike site with react, nextjs, amp, typescript, tailwindcss, markdown",
   "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "bs": "next build && next start"
+  },
   "author": "oriverk <oriveryk@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.5.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
 }
