@@ -1,10 +1,6 @@
 {
   "compilerOptions": {
-    "sourceMap": true,
-    "noImplicitAny": true,
-    "module": "esnext",
-    "target": "es6",
-    "jsx": "preserve",
+    "target": "es2019",
     "lib": [
       "dom",
       "dom.iterable",
@@ -16,16 +12,20 @@
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "moduleResolution": "node"
+    "jsx": "preserve"
   },
-  "include": [
-    "src/**/*",
-    "**/*.ts",
-    "**/*.tsx",
-  ],
   "exclude": [
     "node_modules"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",    
+    "./src/pages/*.{js,jsx,ts,tsx}",
+    "./src/pages/**/*.{js,jsx,ts,tsx}"
   ]
 }
