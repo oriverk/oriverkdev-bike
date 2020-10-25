@@ -46,7 +46,14 @@ module.exports = {
 ```
 
 4. setup image optimization library and plugins
-use 
+use ver. 3.0 as canary of [cyrilwanner / next-optimized-images](https://github.com/cyrilwanner/next-optimized-images/tree/canary). I made []a post about next-optimized-images(2.0)](https://oriverk.dev/posts/20200921-optimized-images/), but 3.0 changed a lot and became more simple. So watch the readme.
+
+```
+yarn add next-optimzed-images@canary next-compose-plugins
+```
+
+5. setup markdown
+
 
 
 
