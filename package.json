@@ -10,13 +10,15 @@
     "build": "next build",
     "build:css": "postcss src/styles/index.css -o src/style/output.css",
     "dev": "run-p dev",
-    "dev:next": "next",
+    "dev:next": "next dev",
     "dev:postcss": "postcss src/styles/index.css -o src/styles/output.css -w",
     "start": "next start"
   },
   "author": "oriverk <oriveryk@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "gray-matter": "^4.0.2",
+    "markdown-it": "^12.0.2",
     "next": "^9.5.5",
     "next-compose-plugins": "^2.2.0",
     "next-optimized-images": "^3.0.0-canary.10",
